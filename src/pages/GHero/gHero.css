@@ -1,0 +1,37 @@
+.main_container{
+    margin-top: 10rem;
+}
+.main_container h2{
+    text-align: center;
+    color: var(--color-gray-100);
+    font-weight: 600;
+}
+.main_container ul{
+    margin-left: 6rem;
+    margin-top: 4rem;
+    display: flex;
+   
+}
+.main_container li{
+    align-items: center;
+    border: 10px solid var(--color-gray-600);
+    background-color: antiquewhite;
+    color: brown;
+    list-style: none;
+    border-radius: 20px;
+    padding: 0.5rem;
+    margin-right: 4rem;
+    font-weight: 100;
+    font-size: .8rem;
+    margin-top: .5rem;
+    
+}
+.main_container img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    
+}
+.main_container li:hover{
+    transform: scale(1.3);
+}
