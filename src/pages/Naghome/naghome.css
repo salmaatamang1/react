@@ -1,0 +1,46 @@
+.main__container__box{
+    margin-top: 120;
+
+
+}
+.main__container__box h2{
+    text-align: center;
+    font-weight: 600;
+    color: green;
+    font: 2em sans-serif;
+}
+.main__container__box ul{
+    display:flex ;
+    list-style: none;
+    
+}
+.main__container__box li{
+    border: 2px solid rgb(240, 249, 202);
+    height: 100px;
+    width: 250px;
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-left: 100px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px rgb(152, 187, 97);
+}
+h3{
+    text-align: center;
+    color: #3f6006;
+}
+h4{
+    text-align: center;
+    color: #2d740c;
+}
+.main__container__box li:hover{
+    transform: scale(1.1);
+}
+.btn.lg{
+    padding:0.7rem 1rem;
+    border-radius: 12rem;
+    font-size: 1.1rem;
+    margin-right: 150px;
+}
+.btn:hover{
+    background:rgb(211, 159, 1);
+}

@@ -1,0 +1,149 @@
+
+
+.nav{
+    height: 5rem;
+    width:100vw;
+    background-color: rgb(0, 128, 0);
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index:99;
+    text-decoration: none;
+
+}
+.nav__link{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color:white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+    
+}
+.nav__content{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    text-decoration: none;
+}
+.nav__links {
+    display: flex;
+    gap: 3.5rem;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 15px;
+    margin-bottom: 1rem;
+    margin-right:110px;
+}
+
+.logo{
+    width: 250px;   
+}
+.safaghar__btn svg{
+    color:white;
+    margin-right: 30px;
+    width: 40%;
+    height: 100%;
+
+}
+.safaghar__btn svg:hover{
+    cursor: pointer;
+    color:rgb(255, 255, 255);
+}
+.dropdownbox{
+    border:10px solid black;
+    width:100px;
+    height:10opx;
+    color: aquamarine;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.showbox{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    right: .1;
+    font-size: 1rem;
+    align-items: flex-start;
+    display: flex;
+    
+   
+
+}
+.showlist{
+
+list-style: none;
+line-height: 1.7;
+border: 2px solid rgb(202, 206, 203);
+box-shadow: 1px 1px 1px rgb(189, 188, 188);
+padding-left: 5;
+padding-top: 5;
+padding-right: 5;
+padding-bottom: 5;
+border-radius: 5px;
+margin-top:4;
+
+}
+.text__container{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    
+}
+.showlist:hover{
+    background-color:rgb(220, 235, 185);
+}
+.main__container__box{
+    margin-top: 120;
+
+
+}
+.main__container__box h2{
+    text-align: center;
+    font-weight: 600;
+    color: green;
+    font: 2em sans-serif;
+}
+.main__container__box ul{
+    display:flex ;
+    list-style: none;
+    
+}
+.main__container__box li{
+    border: 2px solid rgb(240, 249, 202);
+    height: 100px;
+    width: 250px;
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-left: 100px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px rgb(152, 187, 97);
+}
+h3{
+    text-align: center;
+    color: #3f6006;
+}
+h4{
+    text-align: center;
+    color: #2d740c;
+}
+.main__container__box li:hover{
+    transform: scale(1.1);
+}
+.btn__lg{
+    padding:0.7rem 1rem;
+    border-radius: 12rem;
+    font-size: 1.1rem;
+    margin-right: 150px;
+    background-color: rgb(22, 145, 69);
+    text-decoration: none;
+    margin-top:7rem;
+    color:white;
+}
+.btn:hover{
+    background:rgb(211, 159, 1);
+}

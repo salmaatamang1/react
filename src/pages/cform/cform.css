@@ -1,0 +1,110 @@
+/*
+  .form-box {
+    max-width: 744px; 
+    margin: 0 auto;
+    padding: 70px;
+    text-align: left;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    margin-top:170px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top:-20px;
+  }
+  
+  .subheading {
+    margin-bottom: -23px;
+    margin-top:20px
+  }
+  
+  .checkbox-group,
+  .quantity-group,
+  .radio-group {
+    margin-top: -4px;
+    display: flex;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 1.5rem;
+  }
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    width: 26%;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-left:13rem;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+  }
+  
+  .checkbox-group label,
+  .quantity-group label,
+  .radio-group label {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .checkbox-group label input[type="checkbox"],
+  .radio-group label input[type="radio"] {
+    margin-right: 10px;
+  }
+  */
+
+  form {
+    display: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+    width: 200px; 
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100px; 
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ button:hover {
+   background-color: #0056b3;
+  }
+  
+  
+  
+
+
+

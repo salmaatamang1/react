@@ -1,0 +1,49 @@
+nav {
+    height: 5rem;
+    width: 100vw;
+    background:rgb(190, 190, 190);
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+
+}
+
+.nav__container {
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    width: 250px;
+    display:block;
+}
+
+.nav__links {
+    display: flex;
+    gap: 3.5rem;
+    align-items: center;
+}
+.safasahar_link{
+color:white;
+}
+.nav__links a{
+    transition: var(--transition);
+}
+.nav__links a:hover {
+    color: var(--color-secondary);
+}
+.nav__links li.active {
+    background-color: white;
+}
+.active-nav {
+    position: relative;
+}
+
+
+

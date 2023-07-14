@@ -1,0 +1,37 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin-top: 1rem;
+}
+.sub-main{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+}
+
+.left-side h2{
+    color: var(--color-gray-100);
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.left-side p{
+    color:black;
+    font-size:20px;
+    display: center;
+    margin-left: 10px;
+}
+.right-side h2{
+    color: var(--color-gray-100);
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+}
+
